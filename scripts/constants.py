@@ -8,6 +8,7 @@ class AppInfo:
     VERSION = "Ver 0.10"
     LOG_FILE_DIR = './log/program.log'
     EXCEL_PATH = "./添加数据.xlsx"
+    ICO_PATH = "./assets/json.png"
     
 class Color():
     GREEN = QColor('#00a388')

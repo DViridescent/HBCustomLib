@@ -47,7 +47,7 @@ class Application(Ui_MainWindow, QMainWindow):
         """ 初始化主窗口 """
         self.setWindowTitle(AppInfo.NAME+' - '+AppInfo.VERSION)
         #self.setFixedSize(self.width(),self.height())
-        #self.setWindowIcon(QIcon(AppInfo.ICO_PATH))
+        self.setWindowIcon(QIcon(AppInfo.ICO_PATH))
         #self.setGeometry(609, 70, 718, 898)
 
     def initWidget(self):
@@ -84,6 +84,10 @@ class Application(Ui_MainWindow, QMainWindow):
         os.mkdir(customPath)
         constructionPath = os.path.join(customPath, "constructions")
         os.mkdir(constructionPath)
+        os.mkdir(os.path.join(customPath, "constructionsets"))
+        os.mkdir(os.path.join(customPath, "programtypes"))
+        os.mkdir(os.path.join(customPath, "programtypes_registry"))
+        os.mkdir(os.path.join(customPath, "schedules"))
         opaqueMaterialPath = os.path.join(constructionPath, "opaque_material.json")
         return opaqueMaterialPath
 

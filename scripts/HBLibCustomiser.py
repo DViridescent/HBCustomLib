@@ -1,11 +1,12 @@
 import json
-from numpy import double
 from openpyxl import load_workbook
 
 
 class HBLibCustomiser:
     @staticmethod
     def _getValue(value, valueType: str):
+        if value is None or value == "":
+            return None
         if valueType == "字符串":
             return str(value)
         elif valueType == "整数":
@@ -27,7 +28,7 @@ class HBLibCustomiser:
             materialParams = dict()
             rowIndex = i+3
             name = ws.cell(rowIndex, 1).value
-            for colIndex in range(2, ws.max_column):
+            for colIndex in range(2, ws.max_column+1):
                 value = ws.cell(rowIndex, colIndex).value
                 valueType = str(ws.cell(1, colIndex).value)
                 value = HBLibCustomiser._getValue(value, valueType)

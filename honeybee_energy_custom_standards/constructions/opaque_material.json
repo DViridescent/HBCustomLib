@@ -20,8 +20,7 @@
     "density": 800.001829191176,
     "specific_heat": 1089.29718545594,
     "thermal_absorptance": 0.9,
-    "solar_absorptance": 0.7,
-    "visible_absorptance": 0.5
+    "solar_absorptance": 0.7
   },
   "WZW Test3": {
     "type": "testType",
@@ -31,8 +30,6 @@
     "conductivity": 0.159892999094054,
     "density": 800.001829191176,
     "specific_heat": 1089.29718545594,
-    "thermal_absorptance": 0.9,
-    "solar_absorptance": 0.7,
-    "visible_absorptance": 0.5
+    "thermal_absorptance": 0.9
   }
 }

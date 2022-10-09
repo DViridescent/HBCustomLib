@@ -1,1 +1,14 @@
 /~$添加数据.xlsx
+__pycache__/
+*.pyc
+*.exe
+*.spec
+*.html
+*.ps1
+*.conde-workspace
+/*.txt
+/build/*
+/dist/*
+/doc/*
+/app/*
+/log/*
