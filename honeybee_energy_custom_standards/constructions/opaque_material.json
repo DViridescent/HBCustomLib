@@ -4,11 +4,35 @@
     "identifier": "TestIdentifier",
     "roughness": "Smooth",
     "thickness": 0.0127,
-    "conductivity": 0.15989299909405463,
-    "density": 800.0018291911765,
-    "specific_heat": 1089.2971854559414,
+    "conductivity": 0.159892999094054,
+    "density": 800.001829191176,
+    "specific_heat": 1089.29718545594,
     "thermal_absorptance": 0.9,
     "solar_absorptance": 0.7,
     "visible_absorptance": 0.5
- }
+  },
+  "WZW Test2": {
+    "type": "testType",
+    "identifier": "TestIdentifier",
+    "roughness": "Smooth",
+    "thickness": 0.0127,
+    "conductivity": 0.159892999094054,
+    "density": 800.001829191176,
+    "specific_heat": 1089.29718545594,
+    "thermal_absorptance": 0.9,
+    "solar_absorptance": 0.7,
+    "visible_absorptance": 0.5
+  },
+  "WZW Test3": {
+    "type": "testType",
+    "identifier": "TestIdentifier",
+    "roughness": "Smooth",
+    "thickness": 0.0127,
+    "conductivity": 0.159892999094054,
+    "density": 800.001829191176,
+    "specific_heat": 1089.29718545594,
+    "thermal_absorptance": 0.9,
+    "solar_absorptance": 0.7,
+    "visible_absorptance": 0.5
+  }
 }
